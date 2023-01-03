@@ -3,7 +3,7 @@ title: Automate App Center Upload with Fastlane
 date: '2021-05-29T08:37:24.835Z'
 slug: automate-app-center-upload-with-fastlane
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/automate-app-center-upload-with-fastlane.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/automate-app-center-upload-with-fastlane.md
 preview: App Center is a platform to build, test, release and monitor apps. Like google play and apple appstore, we can also store apps on appcenter for releasing the app to the QA for testing.
 ---
 

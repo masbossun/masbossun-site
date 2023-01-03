@@ -3,7 +3,7 @@ title: My Linux Environment
 date: '2019-01-19T23:03:03.284Z'
 slug: my-linux-environment
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/my-linux-environment.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/my-linux-environment.md
 preview: On this post i would like to tell you about my environment and experience of using linux system operations. I have been using linux as my daily basis operating system for about 6 months from 2018.
 ---
 

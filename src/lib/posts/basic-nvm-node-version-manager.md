@@ -3,7 +3,7 @@ title: Basic nvm (Node Version Manager)
 date: '2021-12-03T12:19:37.498Z'
 slug: basic-nvm-node-version-manager
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/basic-nvm-node-version-manager.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/basic-nvm-node-version-manager.md
 preview: Javascript has been the most favourite programming language since it can be run outside web browsers thanks to NodeJS. Like any other programming language, javascript and NodeJS is also evolving that comes with new features and fixes.
 ---
 

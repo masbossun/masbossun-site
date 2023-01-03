@@ -3,7 +3,7 @@ title: My Confusion in Learning Swift
 date: '2022-12-18T09:47:23.385Z'
 slug: my-confusion-in-learning-swift
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/my-confusion-in-learning-swift.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/my-confusion-in-learning-swift.md
 preview: This is my journey on learning swift and iOS development. I decide to write my learning here as a second brain, also to keep my learning consistent.
 ---
 

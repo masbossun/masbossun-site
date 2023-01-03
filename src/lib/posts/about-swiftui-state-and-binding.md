@@ -3,7 +3,7 @@ title: About SwiftUI State and Binding
 date: '2022-12-25T00:00:00.000Z'
 slug: about-swiftui-state-and-binding
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/about-swiftui-state-and-binding.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/about-swiftui-state-and-binding.md
 preview: SwiftUI State and Binding are the property wrapper type. Use these state properties to change how the UI should behave.
 ---
 

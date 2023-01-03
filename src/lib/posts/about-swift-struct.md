@@ -3,7 +3,7 @@ title: About Swift Struct
 date: '2022-12-26T14:57:44.919Z'
 slug: about-swift-struct
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/about-swift-struct.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/about-swift-struct.md
 preview: Swift Structure or Struct is a data types that can store multiple values with different types. Swift structs have a lot of similarity with class, most of the time struct will be used instead of class.
 ---
 

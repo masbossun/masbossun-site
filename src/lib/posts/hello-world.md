@@ -3,7 +3,7 @@ title: Hello World
 date: '2019-01-15T23:03:03.284Z'
 slug: hello-world
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/hello-world.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/hello-world.md
 preview: reason why ryan created this blog
 ---
 

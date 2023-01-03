@@ -3,7 +3,7 @@ title: Refactoring nullish type in Typescript
 date: '2020-06-10T07:06:00.000Z'
 slug: refactoring-nullish-type-in-typescript
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/refactoring-nullish-type-in-typescript.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/refactoring-nullish-type-in-typescript.md
 preview: On javascript we have two different nullish type which is `null` and `undefined`. These types basically have same meaning that value with these types doesn't contain anything or empty, but these two types have different behavior.
 ---
 

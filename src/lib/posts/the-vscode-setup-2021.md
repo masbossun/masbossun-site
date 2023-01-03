@@ -3,7 +3,7 @@ title: The vscode setup 2021
 date: '2021-12-03T16:43:56.113Z'
 slug: the-vscode-setup-2021
 author: Ryan Setiagi
-git: https://github.com/masbossun/masbossun-next/blob/main/_posts/the-vscode-setup-2021.mdx
+git: https://github.com/masbossun/masbossun-site/blob/main/src/lib/posts/the-vscode-setup-2021.md
 preview: I want to share my vscode setup, this one is updated and it is different compare to the previous one that I wrote two years ago. Have been coding while using this setup for about a year now, and I feel so comfortable and have no complaints whatsoever.
 ---
 
