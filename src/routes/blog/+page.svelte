@@ -1,6 +1,5 @@
 <script lang="ts">
 	import BlogPost from '$lib/component/BlogPost.svelte';
-	import SEO from '$lib/component/SEO.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -10,12 +9,20 @@
 
 <svelte:head>
 	<title>blog - masbossun.dev</title>
-	<SEO
-		description="ryan usually write something here"
-		image={'/images/banner_bossun.webp'}
-		title={`blog - masbossun.dev`}
-		url={`https://www.masbossun.dev/blog/`}
-	/>
+	<meta name="description" content={'ryan usually write something here'} />
+
+	<meta property="og:url" content={`https://www.masbossun.dev/blog/`} />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content={`blog - masbossun.dev`} />
+	<meta property="og:description" content={'ryan usually write something here'} />
+	<meta property="og:image" content={'/images/banner_bossun.webp'} />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content={`blog - masbossun.dev`} />
+	<meta name="twitter:description" content={'ryan usually write something here'} />
+	<meta name="twitter:image" content={'/images/banner_bossun.webp'} />
+	<meta property="twitter:domain" content="masbossun.dev" />
+	<meta property="twitter:url" content={`https://www.masbossun.dev/blog/`} />
 </svelte:head>
 
 <main>

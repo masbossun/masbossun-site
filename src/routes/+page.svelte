@@ -1,16 +1,23 @@
 <script lang="ts">
-	import SEO from '$lib/component/SEO.svelte';
 	import WorkImage from '$lib/component/WorkImage.svelte';
 </script>
 
 <svelte:head>
 	<title>masbossun dev</title>
-	<SEO
-		description="ryan's personal website"
-		image={'/images/banner_bossun.webp'}
-		title="masbossun dev"
-		url="https://www.masbossun.dev"
-	/>
+	<meta name="description" content="ryan's personal website" />
+
+	<meta property="og:url" content="https://www.masbossun.dev" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="masbossun dev" />
+	<meta property="og:description" content="ryan's personal website" />
+	<meta property="og:image" content="/images/banner_bossun.webp" />
+
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="masbossun dev" />
+	<meta name="twitter:description" content="ryan's personal website" />
+	<meta name="twitter:image" content="/images/banner_bossun.webp" />
+	<meta property="twitter:domain" content="masbossun.dev" />
+	<meta property="twitter:url" content="https://www.masbossun.dev" />
 </svelte:head>
 
 <main>
