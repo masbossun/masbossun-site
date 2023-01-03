@@ -21,7 +21,7 @@
 	{metadata.title}
 </h1>
 <span
-	class="text-black-primary dark:text-white-primary font-monospace font-medium text-xs opacity-50"
+	class="text-black-primary dark:text-white-primary font-monospace font-medium text-xs opacity-[.65]"
 >
 	{metadata?.category}
 </span>

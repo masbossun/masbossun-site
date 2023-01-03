@@ -1,7 +1,7 @@
 ---
 title: Waruung App
 slug: waruung-app
-category: "UI Design"
+category: 'UI Design'
 ---
 
 Food delivery app called waruung, the name is inspired by "Warung"—stall in Bahasa. The logo also inspired by stall in "w" shape. With Waruung people can search and buy meal around their area.

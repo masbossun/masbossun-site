@@ -1,6 +1,6 @@
 ---
 title: The vscode setup 2021
-date: "2021-12-03T16:43:56.113Z"
+date: '2021-12-03T16:43:56.113Z'
 slug: the-vscode-setup-2021
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/the-vscode-setup-2021.mdx
@@ -15,69 +15,67 @@ For settings mostly inspired by [Dan Abramov](https://twitter.com/dan_abramov), 
 
 ```json
 {
-  "editor.cursorBlinking": "solid",
-  "editor.minimap.enabled": false,
-  "editor.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "editor.fontSize": 13,
-  "editor.lineHeight": 22,
-  "editor.fontWeight": "500",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "editor.folding": false,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-  "editor.hideCursorInOverviewRuler": true,
-  "editor.lineNumbers": "off",
-  "editor.matchBrackets": "never",
-  "editor.occurrencesHighlight": false,
-  "editor.overviewRulerBorder": false,
-  "editor.renderLineHighlight": "none",
-  "editor.padding.top": 20,
-  "editor.padding.bottom": 20,
-  "editor.tabSize": 8,
-  "editor.cursorStyle": "line",
-  "editor.insertSpaces": false,
-  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
-  "editor.wordWrap": "off",
-  "editor.suggestSelection": "first",
-  "editor.scrollBeyondLastLine": false,
-  "editor.guides.indentation": false,
-  "workbench.editor.enablePreview": false,
-  "workbench.colorTheme": "Base16 Tomorrow",
-  "workbench.list.openMode": "doubleClick",
-  "workbench.iconTheme": null,
-  "workbench.editor.showIcons": false,
-  "workbench.startupEditor": "newUntitledFile",
-  "workbench.statusBar.visible": true,
-  "workbench.activityBar.visible": false,
-  "workbench.panel.defaultLocation": "right",
-  "explorer.openEditors.visible": 0,
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
-  "terminal.integrated.lineHeight": 1.2,
-  "terminal.integrated.tabs.enabled": false,
-  "git.autofetch": true,
-  "git.ignoreMissingGitWarning": true,
-  "scm.diffDecorations": "overview",
-  "search.exclude": {
-    "**/node_modules": false
-  },
-  "vim.statusBarColorControl": false,
-  "vim.easymotion": true,
-  "vim.incsearch": true,
-  "vim.useSystemClipboard": true,
-  "vim.hlsearch": true,
-  "vim.leader": "<space>",
-  "vim.smartcase": true,
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<esc><esc>"],
-      "commands": [":noh"]
-    }
-  ],
-  "todohighlight.keywords": [
-    { "text": "HACK", "color": "#FFFFFF", "backgroundColor": "#872608" }
-  ]
+	"editor.cursorBlinking": "solid",
+	"editor.minimap.enabled": false,
+	"editor.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"editor.fontSize": 13,
+	"editor.lineHeight": 22,
+	"editor.fontWeight": "500",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.folding": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"editor.hideCursorInOverviewRuler": true,
+	"editor.lineNumbers": "off",
+	"editor.matchBrackets": "never",
+	"editor.occurrencesHighlight": false,
+	"editor.overviewRulerBorder": false,
+	"editor.renderLineHighlight": "none",
+	"editor.padding.top": 20,
+	"editor.padding.bottom": 20,
+	"editor.tabSize": 8,
+	"editor.cursorStyle": "line",
+	"editor.insertSpaces": false,
+	"editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+	"editor.wordWrap": "off",
+	"editor.suggestSelection": "first",
+	"editor.scrollBeyondLastLine": false,
+	"editor.guides.indentation": false,
+	"workbench.editor.enablePreview": false,
+	"workbench.colorTheme": "Base16 Tomorrow",
+	"workbench.list.openMode": "doubleClick",
+	"workbench.iconTheme": null,
+	"workbench.editor.showIcons": false,
+	"workbench.startupEditor": "newUntitledFile",
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": false,
+	"workbench.panel.defaultLocation": "right",
+	"explorer.openEditors.visible": 0,
+	"terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+	"terminal.integrated.lineHeight": 1.2,
+	"terminal.integrated.tabs.enabled": false,
+	"git.autofetch": true,
+	"git.ignoreMissingGitWarning": true,
+	"scm.diffDecorations": "overview",
+	"search.exclude": {
+		"**/node_modules": false
+	},
+	"vim.statusBarColorControl": false,
+	"vim.easymotion": true,
+	"vim.incsearch": true,
+	"vim.useSystemClipboard": true,
+	"vim.hlsearch": true,
+	"vim.leader": "<space>",
+	"vim.smartcase": true,
+	"vim.normalModeKeyBindingsNonRecursive": [
+		{
+			"before": ["<esc><esc>"],
+			"commands": [":noh"]
+		}
+	],
+	"todohighlight.keywords": [{ "text": "HACK", "color": "#FFFFFF", "backgroundColor": "#872608" }]
 }
 ```
 

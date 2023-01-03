@@ -1,6 +1,6 @@
 ---
 title: Refactoring nullish type in Typescript
-date: "2020-06-10T07:06:00.000Z"
+date: '2020-06-10T07:06:00.000Z'
 slug: refactoring-nullish-type-in-typescript
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/refactoring-nullish-type-in-typescript.mdx
@@ -24,17 +24,17 @@ On javascript we have two different nullish type which is `null` and `undefined`
 
 ```typescript
 const response = {
-  id: 2,
-  status: "OK",
-  message: "All is well",
-  data: {
-    name: "Abigail",
-    phone: 85123123123,
-  },
+	id: 2,
+	status: 'OK',
+	message: 'All is well',
+	data: {
+		name: 'Abigail',
+		phone: 85123123123
+	}
 };
 
 const getUserPhoneNumber = (data) => {
-  return data.phone;
+	return data.phone;
 };
 
 getUserPhoneNumber(response.data); // 85123123123
@@ -46,28 +46,28 @@ Ok, now just assume we know the `response.data` is not always exists by checking
 
 ```typescript
 interface ReponseDataType {
-  name: string;
-  phone: number;
+	name: string;
+	phone: number;
 }
 
 interface ResponseType {
-  id: number;
-  status: string;
-  data: ResponseDataType | null | undefined;
+	id: number;
+	status: string;
+	data: ResponseDataType | null | undefined;
 }
 
 const response: ResponseType = {
-  id: 2,
-  status: "OK",
-  message: "All is well",
-  data: {
-    name: "Abigail",
-    phone: 85123123123,
-  },
+	id: 2,
+	status: 'OK',
+	message: 'All is well',
+	data: {
+		name: 'Abigail',
+		phone: 85123123123
+	}
 };
 
 const getUserPhoneNumber = (data: ResponseDataType) => {
-  return data.phone;
+	return data.phone;
 };
 
 getUserPhoneNumber(response.data); // 85123123123
@@ -77,7 +77,7 @@ After we add type definitions, when we call `getUserPhoneNumber(response.data)`,
 
 ```typescript
 const getUserPhoneNumber = (data: ResponseDataType | null | undefined) => {
-  return data.phone;
+	return data.phone;
 };
 ```
 
@@ -85,32 +85,32 @@ Done, but wait, there is another typescript error after we add nullish definitio
 
 ```typescript
 interface ReponseDataType {
-  name: string;
-  phone: number;
+	name: string;
+	phone: number;
 }
 
 interface ResponseType {
-  id: number;
-  status: string;
-  data: ResponseDataType | null | undefined;
+	id: number;
+	status: string;
+	data: ResponseDataType | null | undefined;
 }
 
 const response: ResponseType = {
-  id: 2,
-  status: "OK",
-  message: "All is well",
-  data: {
-    name: "Abigail",
-    phone: 85123123123,
-  },
+	id: 2,
+	status: 'OK',
+	message: 'All is well',
+	data: {
+		name: 'Abigail',
+		phone: 85123123123
+	}
 };
 
 const getUserPhoneNumber = (data: ResponseDataType | null | undefined) => {
-  if (data) {
-    return data.phone;
-  }
+	if (data) {
+		return data.phone;
+	}
 
-  return undefined; // or maybe null, or any fallback you wanted
+	return undefined; // or maybe null, or any fallback you wanted
 };
 
 getUserPhoneNumber(response.data); // 85123123123
@@ -132,32 +132,32 @@ From here we can use it to refactor our code into something like this.
 type Maybe<T> = T | null | undefined;
 
 interface ReponseDataType {
-  name: string;
-  phone: number;
+	name: string;
+	phone: number;
 }
 
 interface ResponseType {
-  id: number;
-  status: string;
-  data: Maybe<ResponseDataType>;
+	id: number;
+	status: string;
+	data: Maybe<ResponseDataType>;
 }
 
 const response: ResponseType = {
-  id: 2,
-  status: "OK",
-  message: "All is well",
-  data: {
-    name: "Abigail",
-    phone: 85123123123,
-  },
+	id: 2,
+	status: 'OK',
+	message: 'All is well',
+	data: {
+		name: 'Abigail',
+		phone: 85123123123
+	}
 };
 
 const getUserPhoneNumber = (data: Maybe<ResponseDataType>) => {
-  if (data) {
-    return data.phone;
-  }
+	if (data) {
+		return data.phone;
+	}
 
-  return undefined; // or maybe null, or any fallback you wanted
+	return undefined; // or maybe null, or any fallback you wanted
 };
 
 getUserPhoneNumber(response.data); // 85123123123
@@ -167,7 +167,7 @@ Done, type definitions are more readable now. There is one more thing that we ca
 
 ```typescript
 const getUserPhoneNumber = (data: Maybe<ResponseDataType>) => {
-  return data?.phone;
+	return data?.phone;
 };
 ```
 

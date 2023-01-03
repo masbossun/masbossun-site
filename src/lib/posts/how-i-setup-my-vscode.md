@@ -1,6 +1,6 @@
 ---
 title: How I Setup My vscode
-date: "2019-01-31T14:33:10.059Z"
+date: '2019-01-31T14:33:10.059Z'
 slug: how-i-setup-my-vscode
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/how-i-setup-my-vscode.mdx
@@ -41,28 +41,28 @@ vscode are allowed us to change the settings or the configuration. To fit my nee
 
 ```json
 {
-  "workbench.colorTheme": "Panda Syntax",
-  "workbench.iconTheme": "vscode-icons",
-  "workbench.startupEditor": "newUntitledFile",
-  "window.menuBarVisibility": "toggle",
-  "window.titleBarStyle": "native",
-  "window.zoomLevel": 0,
-  "editor.renderWhitespace": "boundary",
-  "editor.rulers": [100],
-  "editor.cursorBlinking": "solid",
-  "editor.lineHeight": 22,
-  "editor.fontFamily": "FuraCode Nerd Font",
-  "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
-  "javascript.format.enable": false,
-  "javascript.validate.enable": false,
-  "prettier.eslintIntegration": true,
-  "flow.useNPMPackagedFlow": true,
-  "files.watcherExclude": {
-    "**/.git/objects/**": true,
-    "**/.git/subtree-cache/**": true,
-    "**/node-modules/**": true
-  }
+	"workbench.colorTheme": "Panda Syntax",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.startupEditor": "newUntitledFile",
+	"window.menuBarVisibility": "toggle",
+	"window.titleBarStyle": "native",
+	"window.zoomLevel": 0,
+	"editor.renderWhitespace": "boundary",
+	"editor.rulers": [100],
+	"editor.cursorBlinking": "solid",
+	"editor.lineHeight": 22,
+	"editor.fontFamily": "FuraCode Nerd Font",
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"javascript.format.enable": false,
+	"javascript.validate.enable": false,
+	"prettier.eslintIntegration": true,
+	"flow.useNPMPackagedFlow": true,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node-modules/**": true
+	}
 }
 ```
 

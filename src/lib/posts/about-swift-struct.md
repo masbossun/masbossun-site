@@ -1,6 +1,6 @@
 ---
 title: About Swift Struct
-date: "2022-12-26T14:57:44.919Z"
+date: '2022-12-26T14:57:44.919Z'
 slug: about-swift-struct
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/about-swift-struct.mdx

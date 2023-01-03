@@ -1,6 +1,6 @@
 ---
 title: Basic nvm (Node Version Manager)
-date: "2021-12-03T12:19:37.498Z"
+date: '2021-12-03T12:19:37.498Z'
 slug: basic-nvm-node-version-manager
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/basic-nvm-node-version-manager.mdx

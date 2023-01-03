@@ -24,18 +24,14 @@
 	</h1>
 	<ol>
 		{#each posts as S, I}
-			<div>
-				<BlogPost
-					title={S?.title}
-					author={S?.author}
-					date={S?.date}
-					href={`/blog/${S?.slug}`}
-					preview={S?.preview}
-				/>
-				{#if I !== posts.length - 1}
-					<div class="h-0.5 w-full bg-white-secondary dark:bg-black-secondary" />
-				{/if}
-			</div>
+			<BlogPost
+				title={S?.title}
+				author={S?.author}
+				date={S?.date}
+				href={`/blog/${S?.slug}`}
+				preview={S?.preview}
+				withBottomSeparator={I !== posts.length - 1}
+			/>
 		{/each}
 	</ol>
 </main>

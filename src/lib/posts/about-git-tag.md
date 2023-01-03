@@ -1,6 +1,6 @@
 ---
 title: About git tag
-date: "2021-12-09T05:00:34.980Z"
+date: '2021-12-09T05:00:34.980Z'
 slug: about-git-tag
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/about-git-tag.mdx

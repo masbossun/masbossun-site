@@ -1,39 +1,57 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --color-black-primary: 35, 35, 35;
-    --color-black-secondary: 51, 51, 51;
-    --color-white-primary: 255, 255, 254;
-    --color-white-secondary: 248, 245, 242;
-    --color-accent-primary: 7, 128, 128;
-    --color-accent-secondary: 244, 93, 72;
-  }
+	:root {
+		--color-black-primary: 35, 35, 35;
+		--color-black-secondary: 51, 51, 51;
+		--color-white-primary: 255, 255, 254;
+		--color-white-secondary: 248, 245, 242;
+		--color-accent-primary: 7, 128, 128;
+		--color-accent-secondary: 244, 93, 72;
+	}
 
-  h1 {
-    @apply font-title font-black text-4xl md:text-5xl;
-  }
-  h2 {
-    @apply font-title font-black text-3xl md:text-4xl;
-  }
-  h3 {
-    @apply font-title font-black text-2xl md:text-3xl;
-  }
-  h4 {
-    @apply font-title font-black text-xl md:text-2xl;
-  }
-  h5 {
-    @apply font-title font-black text-lg md:text-xl;
-  }
+	h1 {
+		@apply font-title font-black text-4xl md:text-5xl;
+	}
+	.h1 {
+		@apply font-title font-black text-4xl md:text-5xl;
+	}
+	h2 {
+		@apply font-title font-black text-3xl md:text-4xl;
+	}
+	.h2 {
+		@apply font-title font-black text-3xl md:text-4xl;
+	}
+	h3 {
+		@apply font-title font-black text-2xl md:text-3xl;
+	}
+	.h3 {
+		@apply font-title font-black text-2xl md:text-3xl;
+	}
+	h4 {
+		@apply font-title font-black text-xl md:text-2xl;
+	}
+	.h4 {
+		@apply font-title font-black text-xl md:text-2xl;
+	}
+	h5 {
+		@apply font-title font-black text-lg md:text-xl;
+	}
+	.h5 {
+		@apply font-title font-black text-lg md:text-xl;
+	}
 
-  pre > code {
-    @apply font-monospace font-medium text-sm;
-  }
+	pre > code {
+		@apply font-monospace font-medium text-sm;
+	}
 
-  p {
-    @apply font-body font-normal text-base md:text-lg;
-  }
+	p {
+		@apply font-body font-normal text-base md:text-lg;
+	}
+}
+
+.token.comment {
+	@apply text-white-secondary opacity-[.65];
 }

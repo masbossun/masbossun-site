@@ -1,6 +1,6 @@
 ---
 title: My Confusion in Learning Swift
-date: "2022-12-18T09:47:23.385Z"
+date: '2022-12-18T09:47:23.385Z'
 slug: my-confusion-in-learning-swift
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/my-confusion-in-learning-swift.mdx

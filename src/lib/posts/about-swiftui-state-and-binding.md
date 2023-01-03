@@ -1,6 +1,6 @@
 ---
 title: About SwiftUI State and Binding
-date: "2022-12-25T00:00:00.000Z"
+date: '2022-12-25T00:00:00.000Z'
 slug: about-swiftui-state-and-binding
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/about-swiftui-state-and-binding.mdx

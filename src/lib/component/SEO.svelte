@@ -1,8 +1,8 @@
 <script lang="ts">
-  export let description: string;
-  export let url: string;
-  export let title: string;
-  export let image: string;
+	export let description: string;
+	export let url: string;
+	export let title: string;
+	export let image: string;
 </script>
 
 <meta name="description" content={description} />

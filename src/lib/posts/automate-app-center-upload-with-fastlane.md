@@ -1,6 +1,6 @@
 ---
 title: Automate App Center Upload with Fastlane
-date: "2021-05-29T08:37:24.835Z"
+date: '2021-05-29T08:37:24.835Z'
 slug: automate-app-center-upload-with-fastlane
 author: Ryan Setiagi
 git: https://github.com/masbossun/masbossun-next/blob/main/_posts/automate-app-center-upload-with-fastlane.mdx
