@@ -32,6 +32,7 @@
   <button
     class="text-black-primary transition ease-out hover:bg-accent-primary p-2 rounded-none hover:text-white-primary dark:hover:bg-accent-secondary dark:text-white-primary dark:hover:text-black-primary"
     on:click={toggleColorMode}
+    aria-label="Toggle color mode"
   >
     <Icon
       icon={icon}

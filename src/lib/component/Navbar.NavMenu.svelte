@@ -32,6 +32,7 @@
       <button
         class="self-stretch text-left text-black-primary dark:text-white-primary py-4"
         on:click={toggleColorMode}
+        aria-label="Toggle color mode"
       >
         <h1>
           dark{" "}
