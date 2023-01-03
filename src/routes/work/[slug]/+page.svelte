@@ -11,7 +11,7 @@
 	<title>{metadata.title} - masbossun.dev</title>
 	<SEO
 		description="the work that ryan has been doing lately"
-		image={'/images/banner_bossun.jpeg'}
+		image={'/images/banner_bossun.webp'}
 		title={`${metadata.title} - masbossun.dev`}
 		url={`https://www.masbossun.dev/work/${metadata.slug}`}
 	/>

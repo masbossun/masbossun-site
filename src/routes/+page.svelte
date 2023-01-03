@@ -7,7 +7,7 @@
   <title>masbossun dev</title>
 	<SEO
 		description="ryan's personal website"
-		image={'/images/banner_bossun.jpeg'}
+		image={'/images/banner_bossun.webp'}
 		title="masbossun dev"
 		url="https://www.masbossun.dev"
 	/>

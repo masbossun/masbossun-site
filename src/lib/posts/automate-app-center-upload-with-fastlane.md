@@ -188,7 +188,7 @@ After all process complete, fastlane will prompt the summary like this.
 <figure>
   <img
     alt="fastlane android summary"
-    src="/images/post/fastlane-android-summary.png"
+    src="/images/post/fastlane-android-summary.webp"
   />
   <figcaption>fastlane android summary</figcaption>
 </figure>
@@ -320,7 +320,7 @@ bundle exec fastlane appcenter_staging
 After all process complete, fastlane will prompt the summary like this.
 
 <figure>
-  <img alt="fastlane ios summary" src="/images/post/fastlane-ios-summary.png" />
+  <img alt="fastlane ios summary" src="/images/post/fastlane-ios-summary.webp" />
   <figcaption>fastlane iOS summary</figcaption>
 </figure>
 

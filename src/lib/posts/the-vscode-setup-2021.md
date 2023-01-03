@@ -88,7 +88,7 @@ I usually keep my vscode view separated horizontally, so I have more space to sc
 <figure>
   <img
     alt="me, viewing the previous vscode setup article inside vscode"
-    src="/images/post/vscode-ryan.png"
+    src="/images/post/vscode-ryan.webp"
   />
   <figcaption>
     me, viewing the previous vscode setup article inside vscode

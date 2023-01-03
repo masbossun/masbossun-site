@@ -12,7 +12,7 @@
 	<title>blog - masbossun.dev</title>
 	<SEO
 		description="ryan usually write something here"
-		image={'/images/banner_bossun.jpeg'}
+		image={'/images/banner_bossun.webp'}
 		title={`blog - masbossun.dev`}
 		url={`https://www.masbossun.dev/blog/`}
 	/>
