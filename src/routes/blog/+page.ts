@@ -6,7 +6,6 @@ export const load = (async () => {
   const posts = await Promise.all(
     Object.keys(mdModules).map(async (path) => {
       const file = await mdModules[path]() as MDFile;
-      console.log({file});
       const { author, date, preview, slug, title } = file.metadata;
       return { author, date, preview, slug, title };
     }),
