@@ -7,7 +7,7 @@
   <div class="grid grid-cols-2 md:grid-cols-3 gap-6">
     <div class="flex flex-col">
       <div class="py-4">
-        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-50">
+        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-70">
           Contacts
         </span>
       </div>
@@ -16,7 +16,7 @@
     </div>
     <div class="flex flex-col">
       <div class="py-4">
-        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-50">
+        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-70">
           Socials
         </span>
       </div>
@@ -25,7 +25,7 @@
     </div>
     <div class="flex flex-col">
       <div class="py-4">
-        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-50">
+        <span class="font-monospace text-xs text-black-primary dark:text-white-primary opacity-70">
           Others
         </span>
       </div>
