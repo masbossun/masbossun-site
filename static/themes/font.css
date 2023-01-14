@@ -75,17 +75,20 @@
   font-family: "Satoshi";
   font-style: normal;
   font-weight: regular;
+  font-display: swap;
   src: url("../fonts/Satoshi-Regular.woff2") format("woff2");
 }
 @font-face {
   font-family: "Satoshi";
   font-style: normal;
   font-weight: medium;
+  font-display: swap;
   src: url("../fonts/Satoshi-Medium.woff2") format("woff2");
 }
 @font-face {
   font-family: "Satoshi";
   font-style: normal;
   font-weight: bold;
+  font-display: swap;
   src: url("../fonts/Satoshi-Bold.woff2") format("woff2");
 }
