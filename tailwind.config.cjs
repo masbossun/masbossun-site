@@ -28,7 +28,7 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        body: ['"DM Sans"', "sans-serif"],
+        body: ['"Satoshi"', "sans-serif"],
         title: ['"Source Serif Pro"', "serif"],
         monospace: ['"DM Mono"', "monospace"],
       },

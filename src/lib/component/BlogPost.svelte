@@ -29,13 +29,13 @@
 		{/if}
 		<a href={href ?? '#'}>
 			<div
-				class="inline-flex bg-accent-primary dark:bg-accent-secondary text-white-primary dark:text-black-primary py-3 px-4 rounded-none font-monospace font-medium text-sm"
+				class="inline-flex bg-accent-primary dark:bg-accent-secondary text-white-primary dark:text-black-primary py-3 px-4 rounded-none font-monospace font-medium text-sm transition-colors duration-500"
 			>
 				continue reading
 			</div>
 		</a>
 	</div>
 	{#if withBottomSeparator}
-		<div class="h-0.5 w-full bg-white-secondary dark:bg-black-secondary" />
+		<div class="h-0.5 w-full bg-white-secondary dark:bg-black-secondary transition-colors duration-500" />
 	{/if}
 </li>

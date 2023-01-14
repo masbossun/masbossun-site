@@ -6,8 +6,8 @@
 	:root {
 		--color-black-primary: 35, 35, 35;
 		--color-black-secondary: 51, 51, 51;
-		--color-white-primary: 255, 255, 254;
-		--color-white-secondary: 248, 245, 242;
+		--color-white-primary: 247, 249, 247;
+		--color-white-secondary: 236, 238, 236;
 		--color-accent-primary: 7, 128, 128;
 		--color-accent-secondary: 244, 93, 72;
 	}
@@ -47,7 +47,7 @@
 		@apply font-monospace font-medium text-sm;
 	}
 
-	p {
+	p, li {
 		@apply font-body font-normal text-base md:text-lg;
 	}
 }

@@ -26,7 +26,7 @@
 </svelte:head>
 
 <main>
-	<h1 class="text-black-primary dark:text-white-primary my-20 md:my-40 max-w-page-title">
+	<h1 class="text-black-primary dark:text-white-primary my-20 md:my-40 max-w-page-title transition-colors duration-500">
 		Ryan usually wrote something here, blog, article, etc, you name it
 	</h1>
 	<ol>

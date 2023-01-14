@@ -21,7 +21,7 @@
 </svelte:head>
 
 <main>
-	<h1 class="text-black-primary dark:text-white-primary my-20 md:my-40 max-w-page-title">
+	<h1 class="text-black-primary dark:text-white-primary my-20 md:my-40 max-w-page-title transition-colors duration-500">
 		As a software developer, ryan does his works with passion
 	</h1>
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
