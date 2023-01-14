@@ -36,7 +36,7 @@
 				</span>
 			</div>
 			<Link href="https://github.com/masbossun">github</Link>
-			<Link href="https://stackoverflow.com/cv/masbossun">stackoverflow</Link>
+			<Link href="https://stackoverflow.com/users/9424214/masbossun">stackoverflow</Link>
 			<Link href="https://dribbble.com/masbossun">dribbble</Link>
 		</div>
 	</div>
