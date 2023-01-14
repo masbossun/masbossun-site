@@ -31,6 +31,8 @@
 				alt="winsen"
 				srcSet="/images/works/works-winsen.webp, /images/works/works-winsen@2x.webp 2x, /images/works/works-winsen@3x.webp 3x"
 				class="h-full"
+        width="1000"
+        height="1000"
 			/>
 		</WorkImage>
 		<WorkImage href="/work/rekber-app">
@@ -39,6 +41,8 @@
 				alt="rekber"
 				srcSet="/images/works/works-rekber.webp, /images/works/works-rekber@2x.webp 2x, /images/works/works-rekber@3x.webp 3x"
 				class="h-full"
+        width="1000"
+        height="1000"
 			/>
 		</WorkImage>
 		<WorkImage href="/work/waruung-app">
@@ -47,6 +51,8 @@
 				alt="bukom-digital"
 				srcSet="/images/works/works-waruung.webp, /images/works/works-waruung@2x.webp 2x, /images/works/works-waruung@3x.webp 3x"
 				class="h-full"
+        width="1000"
+        height="1000"
 			/>
 		</WorkImage>
 		<WorkImage href="/work/hijrah-app">
@@ -55,6 +61,8 @@
 				alt="hijrah"
 				srcSet="/images/works/works-hijrah.webp, /images/works/works-hijrah@2x.webp 2x, /images/works/works-hijrah@3x.webp 3x"
 				class="h-full"
+        width="1000"
+        height="1000"
 			/>
 		</WorkImage>
 	</div>
